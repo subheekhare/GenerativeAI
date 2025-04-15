@@ -1,4 +1,6 @@
-**# streamlit run ChatbotSimple.py**
+# Run The ChatbotSimple.py
+    streamlit run ChatbotSimple.py
+    
     import streamlit as st
     import os
     from langchain_google_genai import ChatGoogleGenerativeAI
