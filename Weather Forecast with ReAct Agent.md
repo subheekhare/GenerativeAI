@@ -12,10 +12,6 @@ from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 
 # setting API KEYs
-OPENWEATHERMAP_API_KEY="da45241819461362f389c0f26eff5ce2"
-TOGETHER_API_KEY = "e7af98edb652fdb123ffc5d8c28c237c0bcba176e9c914b37e8b02eedfd115a8"
-TAVILY_API_KEY = "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"
-
 os.environ["OPENWEATHERMAP_API_KEY"] = OPENWEATHERMAP_API_KEY
 os.environ["TOGETHER_API_KEY"] = TOGETHER_API_KEY
 os.environ["TAVILY_API_KEY"] = TAVILY_API_KEY
